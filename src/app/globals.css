@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@config "../../tailwind.config.ts";
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 5, 5, 5;
+  --background-end-rgb: 5, 5, 5;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #050505;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-space-slate/30 backdrop-blur-md border border-space-slate/50;
+  }
+
+  .text-glow {
+    text-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
+  }
+
+  .text-glow-strong {
+    text-shadow: 0 0 20px rgba(0, 242, 255, 0.8), 0 0 10px rgba(0, 242, 255, 0.5);
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
