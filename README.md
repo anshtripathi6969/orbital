@@ -71,8 +71,3 @@ Open [http://localhost:3000](http://localhost:3000) to view the interface.
 
 *   **Tailwind v4 Compatibility**: Use `npm run dev` for the best experience. The build process uses a compatibility layer for the bleeding-edge CSS engine.
 *   **Performance**: Optimized for Desktop (Cinematic View), but fully responsive for mobile communicators.
-
----
-
-**Authorized by Mission Control.**
-*Project Architect: [Your Name]*
